@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=STIX+Two+Math&display=swap');
+body{
+	background-color:#758c93
+}
+.shadow,.wrapper{
+	width: 650px;
+	border-radius: 30px;
+}
+.shadow{
+	height: 950px;
+	margin:100px auto;
+	background-color: #5e747d;
+}
+.wrapper{
+	height: 1000px;
+	margin-left: 20px;
+	margin-top:-60px;
+	position: absolute;
+	background-image: url(../img/img3.png);
+	background-size: cover;
+	background-position: center;
+}
+.cont{
+	height: 410px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: column;
+	margin-top: 450px;
+}
+.title{
+	width: 400px;
+	display: flex;
+	justify-content: center;
+	position: relative;
+
+}
+span{
+	position: absolute;
+	font-size: 50px;
+	font-family: 'STIX Two Math', serif;
+	font-weight: 600px;
+}
+#shadow{
+	color:orange;
+	top:-2px;
+}
+form{
+	margin-top: 60px;
+	display: flex;
+	flex-direction: column;
+}
+#email{
+	margin: 10px;
+	width: 300px;
+	height: 50px;
+	text-align: center;
+	border-radius: 30px;
+	font-size: 20px;
+	outline: none;
+	border:solid 2px #23b0aa;
+}
+#email:hover{
+	cursor: pointer;
+	border:solid 2px orange;
+	transition: 1s;
+}
+#emailText{
+	outline: none;
+	margin-top: 10px;
+	border:solid 2px #23b0aa;
+	border-radius: 30px;
+	resize:none;
+	cursor: pointer;
+}
+#emailText:hover{
+	border:solid 2px orange;
+	transition: 1s;
+}
+#submit{
+	width: 280px;
+	font-size: 27px;
+	background-color: black;
+	color:white;
+	margin: 10px auto;
+	padding: 10px;
+	border-radius: 30px;
+	border:solid 0px black;
+	border-top: solid 3px orange; 
+	cursor:pointer;
+}
+#submit:hover{
+	color:orange;
+	transition: 1s;
+}
